@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px black solid;
+  min-width: 100px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: aqua;
+}
+
+th {
+  background-color: magenta;
+  color: greenyellow;
+  font-weight: normal;
+}
+
+@media screen and (max-width: 500px) {
+  article {
+    overflow-x: scroll;
+  }
+}
